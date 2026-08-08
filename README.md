@@ -105,8 +105,7 @@
 ## GitHub
 
 <div align="center">
-  <img height="165" src="https://github-readme-stats-pi-pied-31.vercel.app/api?username=STliuEN&theme=transparent&show_icons=true&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=STliuEN&layout=compact&hide_border=true&hide=powershell" alt="Top languages" />
+  <img height="180" src="https://github-stats-extended.vercel.app/api/top-langs/?username=STliuEN&layout=compact&hide_border=true&hide=powershell" alt="Top languages" />
   <br />
   <img width="94%" src="https://github-readme-activity-graph.vercel.app/graph?username=STliuEN&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Activity" alt="GitHub activity graph" />
 </div>
