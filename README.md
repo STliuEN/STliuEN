@@ -1,8 +1,8 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0B132B,48:1C5D99,100:2A9D8F&text=STliuEN&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=メジロ%20ステルン%20的碎碎念&descAlignY=58&descSize=18&descColor=D9F3EE&animation=fadeIn" alt="STliuEN banner" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0B132B,48:1C5D99,100:2A9D8F&text=STliuEN&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=メジロ%20ステルン%20&descAlignY=58&descSize=18&descColor=D9F3EE&animation=fadeIn" alt="STliuEN banner" />
 
-<img width="720" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1400&color=1C5D99&center=true&vCenter=true&width=720&lines=AI+Agent+%2F+RAG+%2F+Tool+Calling+%2F+Backend;%E8%AE%A9+AI+%E6%90%AC%E7%A0%96%EF%BC%8C%E4%BD%86%E6%AF%8F%E4%B8%80%E6%AD%A5%E9%83%BD%E8%83%BD%E7%9C%8B%E3%80%81%E8%83%BD%E6%9F%A5%E3%80%81%E8%83%BD%E6%94%B9;%E6%8A%8A%E3%80%8C%E7%9C%8B%E8%B5%B7%E6%9D%A5%E4%B8%8D%E5%A4%AA%E5%AF%B9%E3%80%8D%E5%8F%98%E6%88%90%E8%83%BD%E5%A4%8D%E7%8E%B0%E7%9A%84%E7%94%A8%E4%BE%8B" alt="typing intro" />
+<img width="720" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1400&color=1C5D99&center=true&vCenter=true&width=720&lines=AI+Agent+%2F+RAG+%2F+Tool+Calling+%2F+Backend;%E8%AE%A9+AI+%E6%90%AC%E7%A0%96%EF%BC%8C%E4%BD%86%E6%90%AC%E5%AE%8C%E5%BE%97%E8%83%BD%E6%9F%A5;%E7%BB%B4%E6%8A%A4%E6%A0%A1%E5%9B%AD+Agent%EF%BC%8C%E4%B9%9F%E5%9C%A8%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84+Agent+%E5%B7%A5%E4%BD%9C%E5%8F%B0" alt="typing intro" />
 
 <p>
   <img src="https://img.shields.io/badge/CS%20Master's-Student-1C5D99?style=flat-square" alt="CS Master's Student" />
@@ -14,18 +14,16 @@
 
 这里是一些正在折腾、曾经折腾过、以及以后大概率还会继续折腾的东西。
 
-计算机硕士在读，最近写得最多的是 AI Agent、RAG、工具调用、知识库、评测和各种后端胶水代码。比起只让 demo 跑起来，我更在意它后面能不能继续被调试、被观察、被修、被复盘。模型回答错了也挺正常，关键是错在哪里、为什么错、下一轮怎么少错一点。
+计算机硕士在读，工程化乐手，最近写得比较多的是 AI Agent、工具调用、评测和各种后端胶水代码。开发了一堆有用没用的小工具。
 
-> TL;DR（给赶时间的面试官）：**Agent / RAG 工程化** · FastAPI + React 全栈 · Go / TypeScript 服务 · 检索链路与评测 · MCP / Skill 工具接入 · 写过图聚类和 NLP 的科研代码
+> TL;DR：做 Agent / RAG 落地，检索、工具调用、评测这几段都自己搭过，也自己修过。后端写 Python、Go 和 TypeScript。
 
 ---
 
 ## 最近的状态
 
-- 在维护一个校园问答 Agent：评审、发版、排障、加功能，最近给它加上了可切换的网页搜索后端
-- 被改图改到吐血，于是写了 [ppt-figure-maker](https://github.com/STliuEN/ppt-figure-maker)，让 AI 画**能编辑的** PPT 图
-- 给 DeepSeek Harness 写了两个 DeepSeek 娘模式插件（[蓝色大肥鱼](https://github.com/STliuEN/dsh-mode-intro-card)）
-- 在用 5070 Ti 给日摇 / 术力口做多轨分离（[music_list_tools](https://github.com/STliuEN/music_list_tools)），纯属个人爱好
+- 风雨飘摇，丢了一堆项目不知道怎么开始和处理
+- 被改图改到吐血，于是写了 [ppt-figure-maker](https://github.com/STliuEN/ppt-figure-maker)
 - [Doki-Assistant](https://github.com/STliuEN/Doki-Assistant) 还在慢慢长大
 
 ## 正经在做的
@@ -35,17 +33,18 @@
     <td width="50%" valign="top">
       <h3><a href="https://github.com/STliuEN/Doki-Assistant">Doki-Assistant</a></h3>
       <p>个人 AI Agent 工作台：对话、知识库、笔记、记忆中心、翻译、模型配置和工具管理放在同一个工作空间。</p>
-      <p>最开始做它完全是因为想要一个实时对话的工作台，方便我在 VRC 里和人打字交流。后来变成了把各种 AI 应用零件塞进同一个运行时的实验场：不只是「问答」，而是把一次回答背后的检索、工具、记忆和上下文都摊开来看。</p>
+      <p>最开始做这玩意完全是因为想要一个实时对话的工作台，方便我在 VRC 里和人打字交流。后来变成了把各种 AI 应用零件塞进同一个运行时的实验场：不只是「问答」，而是把一次回答背后的检索、工具、记忆和上下文都摊开来看。</p>
       <sub><b>FastAPI · React 19 · LangChain · ChromaDB · HyDE / Rerank · MCP · SSE · Ollama</b></sub>
     </td>
     <td width="50%" valign="top">
       <h3>Campus Agent（校园问答助手）</h3>
-      <p>面向学生和访客的校园助手（团队私有仓库），只依据已发布的学校资料和开放的校园服务回答，确认不了就说不知道，不拿模型猜测补事实。</p>
-      <p>我是核心维护者之一，今年接手后承担了大量日常维护：需求讨论、代码评审、发布与运维、线上问题排查。做过的一些东西：</p>
+      <p>学校的校园问答 Agent，团队一起做，私有仓库就不放链接了。学生和访客来问制度、培养方案、食堂、地图这些事，它只用公开的资料回答，拿不准就说不知道。</p>
+      <p>我是核心维护者之一。今年接手之后，日常维护的活儿大部分落在我这边：要做什么、改动能不能合、什么时候发、线上出了问题谁去查，基本都要经过我。</p>
+      <p>中间自己也做了几块：</p>
       <ul>
-        <li><b>网页搜索后端可切换</b>：DeepSeek / Exa 双后端，准入时冻结 provider，失败不偷偷换后端；网页引用和校内引用共用一套编号</li>
-        <li><b>食堂地图与菜品</b>：基于 tldraw 的平面图编辑器、地图包导入导出、菜品投稿与治理</li>
-        <li><b>回答质量</b>：顺着请求链路查无召回、答非所问、引用不清，把「看起来不太对」变成能复现的用例</li>
+        <li><b>搜索后端可切换</b>：主 Agent 的网页搜索能在 DeepSeek 和 Exa 之间换，后台改个配置就行，不用为换搜索源去改代码</li>
+        <li><b>食堂那一块</b>：平面图编辑器、地图包导入导出、菜品投稿和审核</li>
+        <li><b>回答质量</b>：一个回答看着不对就一路查下去，是没检索到、答偏了，还是引用对不上；查完写成能复现的用例</li>
       </ul>
       <sub><b>Go · TypeScript · Temporal · Hono · React · PostgreSQL · MCP</b></sub>
     </td>
@@ -53,8 +52,8 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/STliuEN/ppt-figure-maker">ppt-figure-maker</a></h3>
-      <p>写本子不会画图？导师说「还是第一版好」，但第一版早就淹没在 <code>final_v12_真最终版.pptx</code> 里了？</p>
-      <p>一个 AI Skill：AI 用 manifest「图纸」渲染出<b>可编辑的 PPT</b>，你手动改完它还能读回来接着改；每一版都存着，批注自动整理成清单，溢出、重叠、箭头乱飞会被自动检查出来。</p>
+      <p>写本子不会画图，改到十几版，导师还是说「第一版好」，可第一版早淹没在 <code>final_v12_真最终版.pptx</code> 里了。</p>
+      <p>一个 AI Skill：AI 写一份 manifest，渲染成<b>可编辑的 pptx</b>；你手改完它能读回来接着改，每一版都留着。字溢出、框叠在一起、箭头乱飞这类毛病，它会自己挑出来。</p>
       <sub><b>Python · Agent Skill · manifest ⇄ pptx round-trip · 版本快照 · 视觉检查</b></sub>
     </td>
     <td width="50%" valign="top">
@@ -71,7 +70,7 @@
 | 项目 | 一句话 |
 | --- | --- |
 | [dsh-mode-intro-card](https://github.com/STliuEN/dsh-mode-intro-card) | DeepSeek Harness Web 的两个 DeepSeek 娘 roleplay 模式：「蓝色大肥鱼」是第一轮直接入戏的全功能编码 Agent；「超级蓝色大肥鱼」会先在后台跑一轮预热再进入角色。偶尔傲娇，始终认真求证 |
-| [music_list_tools](https://github.com/STliuEN/music_list_tools) | 本地多模型音轨分离工作台。基于 Pymss CUDA 做六轨分离，带 GPU 单任务锁、运行日志和 manifest，规划中还要统一调度 UVR / Demucs / MSST 这些模型 |
+| [music_list_tools](https://github.com/STliuEN/music_list_tools) | 给日摇 / 术力口做多轨分离，纯属个人爱好。拿 5070 Ti 跑 Pymss 把一首歌拆成六轨，每次运行的日志和 manifest 都留着；下一步想把 UVR / Demucs / MSST 也塞进同一套调度里 |
 
 <details>
 <summary><b>以前挖的坑（点开看看）</b></summary>
@@ -126,7 +125,7 @@
 
 有些仓库还在整理，有些代码现在看会觉得青涩，但也挺好：起码知道自己做的东西不够好，也算是一种进步。
 
-想聊项目、实习或者工作机会，欢迎来信 [sternliu@foxmail.com](mailto:sternliu@foxmail.com)
+有项目想聊，或者正好有合适的实习、工作机会，欢迎来信 [sternliu@foxmail.com](mailto:sternliu@foxmail.com)。
 
 <div align="center">
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:2A9D8F,52:1C5D99,100:0B132B" alt="footer" />
