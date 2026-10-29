@@ -37,10 +37,11 @@
       <sub><b>FastAPI · React 19 · LangChain · ChromaDB · HyDE / Rerank · MCP · SSE · Ollama</b></sub>
     </td>
     <td width="50%" valign="top">
-      <h3>Campus Agent（校园问答助手）</h3>
+      <h3>Campus Agent（校园智能体）</h3>
       <p>学校的校园问答 Agent，团队一起做，私有仓库就不放链接了。学生和访客来问制度、培养方案、食堂、地图这些事，它只用公开的资料回答，拿不准就说不知道。</p>
-      <p>我是维护者之一。今年接手之后，日常维护的部分落在我这边：希望能做粗点什么东西。</p>
-
+      <p>我是维护者之一。今年接手之后，做了一点有的没的东西和维护：是一次在企业和课题组外维护自己的项目。</p>
+      <p>近期的改动：</p>
+      <ul>
       </ul>
       <sub><b>Go · TypeScript · Temporal · Hono · React · PostgreSQL · MCP</b></sub>
     </td>
