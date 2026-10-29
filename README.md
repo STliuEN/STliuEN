@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0B132B,48:1C5D99,100:2A9D8F&text=STliuEN&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=メジロ%20ステルン%20&descAlignY=58&descSize=18&descColor=D9F3EE&animation=fadeIn" alt="STliuEN banner" />
 
-<img width="720" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1400&color=1C5D99&center=true&vCenter=true&width=720&lines=AI+Agent+%2F+RAG+%2F+Tool+Calling+%2F+Backend;%E8%AE%A9+AI+%E6%90%AC%E7%A0%96%EF%BC%8C%E4%BD%86%E6%90%AC%E5%AE%8C%E5%BE%97%E8%83%BD%E6%9F%A5;%E7%BB%B4%E6%8A%A4%E6%A0%A1%E5%9B%AD+Agent%EF%BC%8C%E4%B9%9F%E5%9C%A8%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84+Agent+%E5%B7%A5%E4%BD%9C%E5%8F%B0" alt="typing intro" />
+<img width="720" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1400&color=1C5D99&center=true&vCenter=true&width=720&lines=AI+Agent+%2F+Tool+Calling+%2F+Backend;%E8%AE%A9+AI+%E6%90%AC%E7%A0%96%EF%BC%8C%E4%BD%86%E6%90%AC%E5%AE%8C%E5%BE%97%E8%83%BD%E6%9F%A5;%E7%BB%B4%E6%8A%A4%E6%A0%A1%E5%9B%AD+Agent%EF%BC%8C%E4%B9%9F%E5%9C%A8%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84+Agent+%E5%B7%A5%E4%BD%9C%E5%8F%B0" alt="typing intro" />
 
 <p>
   <img src="https://img.shields.io/badge/CS%20Master's-Student-1C5D99?style=flat-square" alt="CS Master's Student" />
