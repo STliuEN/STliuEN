@@ -66,7 +66,7 @@
 | 项目 | 一句话 |
 | --- | --- |
 | [dsh-mode-intro-card](https://github.com/STliuEN/dsh-mode-intro-card) | DeepSeek Harness Web 的两个 DeepSeek 娘 roleplay 模式：「蓝色大肥鱼」是第一轮直接入戏的全功能编码 Agent；「超级蓝色大肥鱼」会先在后台跑一轮预热再进入角色。偶尔傲娇，始终认真求证 |
-| [music_list_tools](https://github.com/STliuEN/music_list_tools) | 给日摇 / 术力口做多轨分离，纯属个人爱好。拿 5070 Ti 跑 Pymss 把一首歌拆成六轨，每次运行的日志和 manifest 都留着；下一步想把 UVR / Demucs / MSST 也塞进同一套调度里 |
+| [music_list_tools](https://github.com/STliuEN/music_list_tools) | 给乐队做的本地多轨分离部署方案，纯属个人爱好。跑 Pymss 把一首歌拆成六轨，每次运行的日志和 manifest 都留着；下一步想把 UVR / Demucs / MSST 也塞进同一套调度里，可能会以它进一步微调开发 |
 
 <details>
 <summary><b>以前挖的坑（点开看看）</b></summary>
