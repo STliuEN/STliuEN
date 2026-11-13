@@ -2,7 +2,7 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0B132B,48:1C5D99,100:2A9D8F&text=STliuEN&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=メジロ%20ステルン%20&descAlignY=58&descSize=18&descColor=D9F3EE&animation=fadeIn" alt="STliuEN banner" />
 
-<img width="720" src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&pause=1400&color=1C5D99&center=true&vCenter=true&width=720&lines=AI+Agent+%2F+Tool+Calling+%2F+Backend;%E8%AE%A9+AI+%E6%90%AC%E7%A0%96%EF%BC%8C%E4%BD%86%E6%90%AC%E5%AE%8C%E5%BE%97%E8%83%BD%E6%9F%A5;%E7%BB%B4%E6%8A%A4%E6%A0%A1%E5%9B%AD+Agent%EF%BC%8C%E4%B9%9F%E5%9C%A8%E5%86%99%E8%87%AA%E5%B7%B1%E7%9A%84+Agent+%E5%B7%A5%E4%BD%9C%E5%8F%B0" alt="typing intro" />
+
 
 <p>
   <img src="https://img.shields.io/badge/CS%20Master's-Student-1C5D99?style=flat-square" alt="CS Master's Student" />
@@ -33,12 +33,12 @@
     <td width="50%" valign="top">
       <h3><a href="https://github.com/STliuEN/Doki-Assistant">Doki-Assistant</a></h3>
       <p>个人 AI Agent 工作台：对话、知识库、笔记、记忆中心、翻译、模型配置和工具管理放在同一个工作空间。</p>
-      <p>最开始做这玩意完全是因为想要一个实时对话的工作台，方便我在 VRC 里和人打字交流。后来变成了把各种 AI 应用零件塞进同一个运行时的实验场：不只是「问答」，而是把一次回答背后的检索、工具、记忆和上下文都摊开来看。</p>
+      <p>最开始做这玩意完全是因为想要一个实时对话的工作台，方便我在 VRC 里和人打字交流。后来变成了把各种 AI 应用零件塞进同一个运行时的超级胶水工作台，而是把一次回答背后的检索、工具、记忆和上下文都摊开来看。</p>
       <sub><b>FastAPI · React 19 · LangChain · ChromaDB · HyDE / Rerank · MCP · SSE · Ollama</b></sub>
     </td>
     <td width="50%" valign="top">
       <h3>Campus Agent（校园智能体）</h3>
-      <p>学校的校园问答 Agent，团队一起做，私有仓库就不放链接了。学生和访客来问制度、培养方案、食堂、地图这些事，它只用公开的资料回答，拿不准就说不知道。</p>
+      <p>学校的校园问答 Agent，团队一起做，私有仓库就不放链接。本质多功能cs架构自编排Multi-agent应用，填补校内机器人空白。。</p>
       <p>我是维护者之一。今年接手之后，做了一点有的没的东西和维护：是一次在企业和课题组外维护自己的项目。</p>
       <p>近期的改动：</p>
       <ul>
@@ -55,7 +55,7 @@
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/STliuEN/DSAFC">DSAFC</a></h3>
-      <p>深度图聚类的公开训练代码：图数据、模型训练、K-means 聚类、ACC / NMI / ARI / F1 评估，以及复现实验需要的脚本。</p>
+      <p>深度图聚类的公开训练代码。，以及复现实验需要的脚本。</p>
       <p>科研代码有时候不华丽，但它很诚实：参数、数据、指标、日志，哪一步没对上都很难假装没发生。</p>
       <sub><b>PyTorch · Graph Representation Learning · Clustering</b></sub>
     </td>
