@@ -40,7 +40,7 @@
       <h3>Campus Agent（校园智能体）</h3>
       <p>学校的校园问答 Agent，团队一起做，私有仓库就不放链接。本质多功能cs架构自编排Multi-agent应用，填补校内机器人空白。。</p>
       <p>我是维护者之一。今年接手之后，做了一点有的没的东西和维护：是一次在企业和课题组外维护自己的项目。</p>
-      <p>近期的改动：</p>
+      <p>近期的改动主要是上线新的tools机器人</p>
       <ul>
       </ul>
       <sub><b>Go · TypeScript · Temporal · Hono · React · PostgreSQL · MCP</b></sub>
