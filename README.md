@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=205&color=0:0B1021,45:1E3A5F,85:2A9D8F,100:6366F1&text=STliuEN&fontSize=46&fontColor=ffffff&fontAlignY=37&desc=メジロ%20ステルン%20%20♪%20%20Code%20·%20Agents%20·%20Reverb&descAlignY=60&descSize=15&descColor=E2E8F0&animation=fadeIn" alt="STliuEN banner" />
+<img width="100%" src="./assets/banner-miku.jpg" alt="STliuEN Miku Film-Collage Banner" />
 
 <a href="https://github.com/STliuEN">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1400&color=38BDF8&center=true&vCenter=true&width=640&lines=Tuning+AI+agents+with+deterministic+guardrails+%E2%99%AA;LLM+Reasoning+%2B+State+Machines+%2B+Traceable+Eval.;Clean+signal%2C+clear+logs%2C+zero+magic+prompts." alt="Typing SVG" />
@@ -139,8 +139,11 @@
 
 <br /><br />
 
-<sub>✦ 喜欢能留下痕迹的系统：日志可查、错误可复现、回答有来源、改动有理由 ✦</sub>
+<sub>
+  ✦ 喜欢能留下痕迹的系统：日志可查、错误可复现、回答有来源、改动有理由 ✦<br />
+  Banner visual style inspired by <b>nerdneko</b>.
+</sub>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=90&section=footer&color=0:6366F1,30:2A9D8F,65:1E3A5F,100:0B1021" alt="footer" />
+<img width="100%" src="./assets/footer.svg" alt="STliuEN Footer" />
 
 </div>
