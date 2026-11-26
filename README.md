@@ -2,14 +2,18 @@
 
 <img width="100%" src="./assets/banner-miku.jpg" alt="STliuEN Miku Film-Collage Banner" />
 
+<br />
+
 <a href="https://github.com/STliuEN">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1400&color=38BDF8&center=true&vCenter=true&width=640&lines=Tuning+AI+agents+with+deterministic+guardrails+%E2%99%AA;LLM+Reasoning+%2B+State+Machines+%2B+Traceable+Eval.;Clean+signal%2C+clear+logs%2C+zero+magic+prompts." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=15&duration=3200&pause=1400&color=38BDF8&center=true&vCenter=true&width=660&lines=Tuning+AI+agents+with+deterministic+guardrails.;LLM+Reasoning+%2B+State+Machines+%2B+Traceable+Eval.;Clean+signal%2C+clear+logs%2C+late-night+reverb." alt="Typing SVG" />
 </a>
 
 <br />
 
 <sub>
-  ✦ &nbsp;把模糊的问题调成清澈的信号 · 写点跑得稳的 AI 系统，偶尔弹弹琴 &nbsp;✦
+  ✦ &nbsp;在电车掠过高架桥的失真混响里，把飘忽的灵感调成清澈可寻的信号 &nbsp;✦
+  <br />
+  <i>Turning drifting noise into traceable signals — somewhere between code, models, and reverb.</i>
   <br />
   <a href="mailto:sternliu@foxmail.com">sternliu@foxmail.com</a>
 </sub>
@@ -18,12 +22,13 @@
 
 <br />
 
-> [!NOTE]
-> **Signal Philosophy** ── 不把所有赌注都押在 Prompt 上：让模型负责语义理解与复杂生成，让代码负责状态机、规则引擎、证据溯源与自动化验收。
+<div align="center">
+  <img width="100%" src="./assets/status-card.svg" alt="Signal Status Card" />
+</div>
 
-<div align="center"><sub>✦ ────────── ♪ ────────── ✦</sub></div>
+<br />
 
-### 🎸 Tracklist · 正在打磨与开源的项目
+### `01` &nbsp;TRACKLIST · 正在打磨与开源的项目
 
 <table>
   <tr>
@@ -55,12 +60,9 @@
   </tr>
 </table>
 
-<div align="center"><sub>✦ ────────── ♫ ────────── ✦</sub></div>
+<div align="center"><sub>✦ ────────────── ✦</sub></div>
 
-### 🎛️ Live Sessions · 私有生产环境下的 Agent 架构实践
-
-> [!TIP]
-> 在真实业务流量的现场，**可控性、延迟与可审计性**永远比“让模型自由发挥”更重要：
+### `02` &nbsp;LIVE SESSIONS · 私有生产环境下的 Agent 架构实践
 
 <table>
   <tr>
@@ -74,9 +76,9 @@
   </tr>
 </table>
 
-<div align="center"><sub>✦ ────────── ♪ ────────── ✦</sub></div>
+<div align="center"><sub>✦ ────────────── ✦</sub></div>
 
-### 💿 Bonus Tracks · 兴趣使然的小玩意
+### `03` &nbsp;BONUS TRACKS · 兴趣使然的小玩意
 
 <table>
   <tr>
@@ -92,7 +94,7 @@
 </table>
 
 <details>
-<summary>📼 B-Sides · 以前挖的坑（VirtualTryon / BERT NLP）</summary>
+<summary><code>B-SIDES</code> &nbsp;以前挖的坑（VirtualTryon / BERT NLP）</summary>
 
 <br />
 
@@ -101,48 +103,44 @@
 
 </details>
 
-<div align="center"><sub>✦ ────────── ♫ ────────── ✦</sub></div>
+<div align="center"><sub>✦ ────────────── ✦</sub></div>
 
-### 🎚️ Gear & Signal Chain
+### `04` &nbsp;SIGNAL CHAIN · 工具与探索
 
 <div align="center">
 
 <p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" alt="LangChain" />
-  <img src="https://img.shields.io/badge/MCP-111827?style=for-the-badge" alt="MCP" />
+  <img src="https://img.shields.io/badge/Python-0F294A?style=for-the-badge&logo=python&logoColor=7DD3FC" alt="Python" />
+  <img src="https://img.shields.io/badge/Go-0F294A?style=for-the-badge&logo=go&logoColor=7DD3FC" alt="Go" />
+  <img src="https://img.shields.io/badge/TypeScript-0F294A?style=for-the-badge&logo=typescript&logoColor=7DD3FC" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/PyTorch-0F294A?style=for-the-badge&logo=pytorch&logoColor=7DD3FC" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/FastAPI-0F294A?style=for-the-badge&logo=fastapi&logoColor=7DD3FC" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/PostgreSQL-0F294A?style=for-the-badge&logo=postgresql&logoColor=7DD3FC" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/LangChain-0F294A?style=for-the-badge&logo=langchain&logoColor=7DD3FC" alt="LangChain" />
+  <img src="https://img.shields.io/badge/MCP-0F294A?style=for-the-badge&logoColor=7DD3FC" alt="MCP" />
 </p>
 
 <br />
 
 <table>
   <tr>
-    <td width="48%" align="center" valign="middle">
-      <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=STliuEN&layout=compact&hide_border=true&bg_color=00000000&title_color=38BDF8&text_color=94A3B8&hide=powershell,jupyter%20notebook" alt="Top languages" />
+    <td width="46%" align="center" valign="middle">
+      <img width="100%" src="https://github-stats-extended.vercel.app/api/top-langs/?username=STliuEN&layout=compact&hide_border=true&bg_color=0C2240&title_color=7DD3FC&text_color=E2E8F0&hide=powershell,jupyter%20notebook" alt="Top languages" />
     </td>
-    <td width="52%" align="left" valign="middle">
-      <b>🎧 Soundcheck / Now Spinning</b><br /><br />
-      <sub>
-        ♪ &nbsp;Multi-Agent Orchestration & Independent Verifiers<br />
-        ♪ &nbsp;High-Throughput Inference & Retrieval Optimization<br />
-        ♪ &nbsp;Local 6-Stem Audio Separation (BS-Roformer + MCP)<br />
-        ♪ &nbsp;Late-Night Guitar Riffs & Mixing
-      </sub>
+    <td width="54%" align="center" valign="middle">
+      <img width="100%" src="./assets/exploring-card.svg" alt="Now Spinning Card" />
     </td>
   </tr>
 </table>
 
-<br /><br />
+<br />
 
 <sub>
   ✦ 喜欢能留下痕迹的系统：日志可查、错误可复现、回答有来源、改动有理由 ✦<br />
   Banner visual style inspired by <b>nerdneko</b>.
 </sub>
+
+<br /><br />
 
 <img width="100%" src="./assets/footer.svg" alt="STliuEN Footer" />
 
