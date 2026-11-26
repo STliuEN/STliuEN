@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 320" width="100%" height="100%">
+  <defs>
+    <!-- Deep Vinyl Night Background -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06080F" />
+      <stop offset="55%" stop-color="#0B1020" />
+      <stop offset="100%" stop-color="#110B1F" />
+    </linearGradient>
+
+    <!-- Ambient Glows -->
+    <radialGradient id="prismGlow" cx="34%" cy="52%" r="36%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.22" />
+      <stop offset="45%" stop-color="#9D4EDD" stop-opacity="0.10" />
+      <stop offset="100%" stop-color="#06080F" stop-opacity="0" />
+    </radialGradient>
+
+    <radialGradient id="magentaGlow" cx="72%" cy="48%" r="38%">
+      <stop offset="0%" stop-color="#FF2E93" stop-opacity="0.14" />
+      <stop offset="55%" stop-color="#2A9D8F" stop-opacity="0.06" />
+      <stop offset="100%" stop-color="#06080F" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Prism Glass Fill -->
+    <linearGradient id="prismFill" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#FF2E93" stop-opacity="0.10" />
+    </linearGradient>
+
+    <!-- Incoming White Beam -->
+    <linearGradient id="inBeam" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.05" />
+      <stop offset="40%" stop-color="#E2E8F0" stop-opacity="0.65" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.98" />
+    </linearGradient>
+
+    <!-- Spectrum Dispersion Gradient -->
+    <linearGradient id="spec1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF2E93" stop-opacity="0.95" />
+      <stop offset="70%" stop-color="#FF2E93" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#FF2E93" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="spec2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF9F1C" stop-opacity="0.90" />
+      <stop offset="70%" stop-color="#FF9F1C" stop-opacity="0.50" />
+      <stop offset="100%" stop-color="#FF9F1C" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="spec3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFE600" stop-opacity="0.88" />
+      <stop offset="70%" stop-color="#FFE600" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#FFE600" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="spec4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2EC4B6" stop-opacity="0.92" />
+      <stop offset="70%" stop-color="#2EC4B6" stop-opacity="0.52" />
+      <stop offset="100%" stop-color="#2EC4B6" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="spec5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00F0FF" stop-opacity="0.95" />
+      <stop offset="70%" stop-color="#00F0FF" stop-opacity="0.55" />
+      <stop offset="100%" stop-color="#00F0FF" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="spec6" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#9D4EDD" stop-opacity="0.92" />
+      <stop offset="70%" stop-color="#9D4EDD" stop-opacity="0.50" />
+      <stop offset="100%" stop-color="#9D4EDD" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- CRT Scanline Pattern -->
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="4" y2="0" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1" />
+    </pattern>
+
+    <!-- Subtle Technical Grid -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#94A3B8" stroke-opacity="0.055" stroke-width="1" />
+    </pattern>
+
+    <!-- Soft Neon Blur -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <clipPath id="cardClip">
+      <rect x="0" y="0" width="1200" height="320" rx="14" />
+    </clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', 'SFMono-Regular', Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans CJK SC', sans-serif; }
+    .pulse-beam { animation: beamPulse 4.5s ease-in-out infinite; }
+    .wave-flow { stroke-dasharray: 12 8; animation: dashMove 12s linear infinite; }
+    .blink { animation: blinkAnim 2.2s steps(2, start) infinite; }
+    @keyframes beamPulse {
+      0%, 100% { opacity: 0.82; }
+      50% { opacity: 1; }
+    }
+    @keyframes dashMove {
+      to { stroke-dashoffset: -160; }
+    }
+    @keyframes blinkAnim {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.25; }
+    }
+  </style>
+
+  <g clip-path="url(#cardClip)">
+    <!-- Base Layers -->
+    <rect width="1200" height="320" fill="url(#bgGrad)" />
+    <rect width="1200" height="320" fill="url(#grid)" />
+    <rect width="1200" height="320" fill="url(#prismGlow)" />
+    <rect width="1200" height="320" fill="url(#magentaGlow)" />
+
+    <!-- Top Album Obi / Technical Telemetry Bar -->
+    <line x1="28" y1="36" x2="1172" y2="36" stroke="#334155" stroke-opacity="0.55" stroke-width="1" />
+    <circle cx="40" cy="22" r="3.5" fill="#FF2E93" class="blink" />
+    <text x="54" y="26" fill="#94A3B8" font-size="11" letter-spacing="2" class="mono">STEREO · 44.1kHz // DENPA-ROCK EDITION</text>
+    <text x="1170" y="26" fill="#64748B" font-size="11" letter-spacing="2" text-anchor="end" class="mono">SIDE A · SIGNAL_01</text>
+
+    <!-- Retro Oscilloscope / Guitar Reverb Wave (Background) -->
+    <path d="M 0 218 Q 45 190 90 218 T 180 218 T 270 218 T 360 218 T 450 218 T 540 218 T 630 218 T 720 218 T 810 218 T 900 218 T 990 218 T 1080 218 T 1170 218 T 1260 218"
+          fill="none" stroke="#38BDF8" stroke-opacity="0.16" stroke-width="1.5" class="wave-flow" />
+    <path d="M 0 232 Q 60 256 120 232 T 240 232 T 360 232 T 480 232 T 600 232 T 720 232 T 840 232 T 960 232 T 1080 232 T 1200 232"
+          fill="none" stroke="#FF2E93" stroke-opacity="0.13" stroke-width="1.2" />
+
+    <!-- Incoming Pure White Signal Beam (Dark Side of the Moon homage) -->
+    <polygon points="0,192 268,154 274,162 0,204" fill="url(#inBeam)" opacity="0.22" />
+    <line x1="0" y1="198" x2="271" y2="158" stroke="url(#inBeam)" stroke-width="2.6" filter="url(#glow)" />
+
+    <!-- Internal Prism Refraction Glow -->
+    <polygon points="271,158 378,142 384,174" fill="#FFFFFF" fill-opacity="0.16" />
+
+    <!-- Dispersed Neon Spectrum Rays (Refracted out to the right) -->
+    <g class="pulse-beam" filter="url(#glow)">
+      <polygon points="376,144 920,86 920,100 378,150" fill="url(#spec1)" />
+      <polygon points="378,150 930,114 930,128 380,155" fill="url(#spec2)" />
+      <polygon points="380,155 940,142 940,156 382,160" fill="url(#spec3)" />
+      <polygon points="382,160 940,170 940,184 384,166" fill="url(#spec4)" />
+      <polygon points="384,166 930,198 930,213 386,172" fill="url(#spec5)" />
+      <polygon points="386,172 910,228 910,244 388,178" fill="url(#spec6)" />
+    </g>
+
+    <!-- Geometric Prism (Double-lined Indie Rock Album Art Style) -->
+    <g transform="translate(0, 0)">
+      <!-- Outer subtle halo triangle -->
+      <polygon points="328,72 426,242 230,242" fill="none" stroke="#38BDF8" stroke-opacity="0.25" stroke-width="1" stroke-dasharray="4 4" />
+      <!-- Main Prism -->
+      <polygon points="328,84 414,234 242,234" fill="url(#prismFill)" stroke="#F8FAFC" stroke-width="2.2" filter="url(#glow)" />
+      <!-- Inner Triangle Facet -->
+      <polygon points="328,104 396,222 260,222" fill="none" stroke="#E2E8F0" stroke-opacity="0.32" stroke-width="1" />
+      <!-- Crosshair markers -->
+      <text x="328" y="65" fill="#64748B" font-size="9" text-anchor="middle" letter-spacing="2" class="mono">PRISM // 01</text>
+    </g>
+
+    <!-- Right-Side Japanese Indie Rock / Denpa Typography Block -->
+    <g transform="translate(555, 0)">
+      <!-- Small Japanese Tag Pill -->
+      <rect x="0" y="76" width="166" height="22" rx="3" fill="#FF2E93" fill-opacity="0.16" stroke="#FF2E93" stroke-opacity="0.65" stroke-width="1" />
+      <text x="83" y="91" fill="#FDA4AF" font-size="11" text-anchor="middle" letter-spacing="1.5" class="mono">未来電脳音響 · VOL.26</text>
+
+      <!-- Chromatic Aberration Glitch Shadow for Main Title -->
+      <text x="-2.5" y="160" fill="#FF2E93" fill-opacity="0.65" font-size="64" font-weight="800" letter-spacing="6" class="sans">STliuEN</text>
+      <text x="2.5" y="160" fill="#00F0FF" fill-opacity="0.65" font-size="64" font-weight="800" letter-spacing="6" class="sans">STliuEN</text>
+      <!-- Crisp Main Title -->
+      <text x="0" y="160" fill="#FFFFFF" font-size="64" font-weight="800" letter-spacing="6" class="sans">STliuEN</text>
+
+      <!-- Japanese Katakana Sub-identity -->
+      <text x="2" y="196" fill="#E2E8F0" font-size="18" font-weight="600" letter-spacing="4" class="sans">メジロ ステルン</text>
+      <text x="220" y="195" fill="#38BDF8" font-size="13" letter-spacing="2" class="mono">// CODE · AGENTS · REVERB</text>
+
+      <!-- Minimalist Divider & Tagline -->
+      <line x1="2" y1="214" x2="570" y2="214" stroke="#475569" stroke-opacity="0.6" stroke-width="1" />
+      <text x="2" y="236" fill="#94A3B8" font-size="12.5" letter-spacing="1.8" class="mono">NOISE → PRISM → DETERMINISTIC SIGNAL</text>
+    </g>
+
+    <!-- Bottom Film / Cassette Spec Strip -->
+    <line x1="28" y1="284" x2="1172" y2="284" stroke="#334155" stroke-opacity="0.55" stroke-width="1" />
+    <text x="32" y="303" fill="#64748B" font-size="10.5" letter-spacing="2" class="mono">HI-FI AGENT RUNTIME · HYBRID RAG · AUDIO DSP</text>
+    <!-- Mini Equalizer Bars on Bottom Right -->
+    <g transform="translate(1070, 291)">
+      <rect x="0" y="4" width="3" height="8" fill="#FF2E93" rx="1" />
+      <rect x="6" y="0" width="3" height="12" fill="#FF9F1C" rx="1" />
+      <rect x="12" y="5" width="3" height="7" fill="#FFE600" rx="1" />
+      <rect x="18" y="2" width="3" height="10" fill="#2EC4B6" rx="1" />
+      <rect x="24" y="6" width="3" height="6" fill="#00F0FF" rx="1" />
+      <rect x="30" y="1" width="3" height="11" fill="#9D4EDD" rx="1" />
+      <text x="44" y="11" fill="#94A3B8" font-size="10.5" letter-spacing="1.5" class="mono">REC</text>
+    </g>
+
+    <!-- CRT Scanlines Overlay -->
+    <rect width="1200" height="320" fill="url(#scanlines)" />
+
+    <!-- Outer Subtle Frame Border -->
+    <rect x="1" y="1" width="1198" height="318" rx="14" fill="none" stroke="#334155" stroke-opacity="0.7" stroke-width="1.5" />
+  </g>
+</svg>
