@@ -2,8 +2,6 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0B132B,48:1C5D99,100:2A9D8F&text=STliuEN&fontSize=48&fontColor=ffffff&fontAlignY=36&desc=メジロ%20ステルン%20&descAlignY=58&descSize=18&descColor=D9F3EE&animation=fadeIn" alt="STliuEN banner" />
 
-
-
 <p>
   <img src="https://img.shields.io/badge/CS%20Master's-Student-1C5D99?style=flat-square" alt="CS Master's Student" />
   <img src="https://img.shields.io/badge/Focus-AI%20Agent%20%C2%B7%20RAG%20%C2%B7%20LLM%20Apps-2A9D8F?style=flat-square" alt="Focus" />
@@ -14,15 +12,15 @@
 
 这里是一些正在折腾、曾经折腾过、以及以后大概率还会继续折腾的东西。
 
-计算机硕士在读，工程化乐手，AI Agent、工具调用、评测和各种后端胶水代码。开发了一堆有用没用的小工具。
+计算机硕士在读，业余乐手。平时主要折腾 AI Agent、工具调用、评测和各种后端胶水代码，顺手攒了一堆有用没用的小工具。
 
-> TL;DR：做基础方向LLM落地，检索、工具调用、评测这几段都自己搭过，也自己修过。后端写 Python、Go 和 TypeScript。
+> TL;DR：做 LLM 应用落地，检索、工具调用、评测这几段都自己搭过也修过。后端主要写 Python、Go 和 TypeScript。
 
 ---
 
 ## 最近的状态
 
-- 风雨飘摇，丢了一堆项目不知道怎么开始和处理
+- 正在慢慢整理手头的项目，把以前零散的小工具收拢到一起
 - 被改图改到吐血，于是写了 [ppt-figure-maker](https://github.com/STliuEN/ppt-figure-maker)
 - [Doki-Assistant](https://github.com/STliuEN/Doki-Assistant) 还在慢慢长大
 
@@ -32,17 +30,14 @@
   <tr>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/STliuEN/Doki-Assistant">Doki-Assistant</a></h3>
-      <p>个人 AI Agent 工作台：对话、知识库、笔记、记忆中心、翻译、模型配置和工具管理放在同一个工作空间。</p>
-      <p>最开始做这玩意完全是因为想要一个实时对话的工作台，方便我在 VRC 里和人打字交流。后来变成了把各种 AI 应用零件塞进同一个运行时的超级胶水工作台，而是把一次回答背后的检索、工具、记忆和上下文都摊开来看。</p>
+      <p>个人 AI Agent 工作台：对话、知识库、笔记、记忆中心、翻译、模型配置和工具管理都在同一个工作空间里。</p>
+      <p>最开始做这玩意只是想在 VRChat 里方便实时打字交流，后来慢慢演变成了一个实验场——把一次回答背后的检索、工具、记忆和上下文都摊开来看。</p>
       <sub><b>FastAPI · React 19 · LangChain · ChromaDB · HyDE / Rerank · MCP · SSE · Ollama</b></sub>
     </td>
     <td width="50%" valign="top">
       <h3>Campus Agent（校园智能体）</h3>
-      <p>学校的校园问答 Agent，团队一起做，私有仓库就不放链接。本质多功能cs架构自编排Multi-agent应用，填补校内机器人空白。。</p>
-      <p>我是维护者之一。今年接手之后，做了一点有的没的东西和维护：是一次在企业和课题组外维护自己的项目。</p>
-      <p>近期的改动主要是上线新的tools机器人</p>
-      <ul>
-      </ul>
+      <p>学校的校园问答 Agent，团队一起做的，私有仓库就不放链接了。本质上是个 Multi-Agent 校园小助手，帮大家查查校内信息和日常服务。</p>
+      <p>我是维护者之一。接手之后主要负责新工具接入、效果评测和日常修修补补，也算是在课题组之外练手维护一个真正有人在用的线上项目。</p>
       <sub><b>Go · TypeScript · Temporal · Hono · React · PostgreSQL · MCP</b></sub>
     </td>
   </tr>
@@ -50,12 +45,12 @@
     <td width="50%" valign="top">
       <h3><a href="https://github.com/STliuEN/ppt-figure-maker">ppt-figure-maker</a></h3>
       <p>写本子不会画图，改到十几版，导师还是说「第一版好」，可第一版早淹没在 <code>final_v12_真最终版.pptx</code> 里了。</p>
-      <p>一个 AI Skill：AI 写一份 manifest，渲染成<b>可编辑的 pptx</b>；你手改完它能读回来接着改，每一版都留着。字溢出、框叠在一起、箭头乱飞这类毛病，它会自己挑出来。</p>
+      <p>一个 AI Skill：AI 写一份 manifest 渲染成<b>可编辑的 pptx</b>；你手改完它能读回来接着改，每一版都留着。字溢出、框叠在一起、箭头乱飞这类毛病，它会自己挑出来。</p>
       <sub><b>Python · Agent Skill · manifest ⇄ pptx round-trip · 版本快照 · 视觉检查</b></sub>
     </td>
     <td width="50%" valign="top">
       <h3><a href="https://github.com/STliuEN/DSAFC">DSAFC</a></h3>
-      <p>深度图聚类的公开训练代码。，以及复现实验需要的脚本。</p>
+      <p>深度图聚类的公开训练代码，以及复现实验需要的脚本。</p>
       <p>科研代码有时候不华丽，但它很诚实：参数、数据、指标、日志，哪一步没对上都很难假装没发生。</p>
       <sub><b>PyTorch · Graph Representation Learning · Clustering</b></sub>
     </td>
@@ -67,7 +62,7 @@
 | 项目 | 一句话 |
 | --- | --- |
 | [dsh-mode-intro-card](https://github.com/STliuEN/dsh-mode-intro-card) | DeepSeek Harness Web 的两个 DeepSeek 娘 roleplay 模式：「蓝色大肥鱼」是第一轮直接入戏的全功能编码 Agent；「超级蓝色大肥鱼」会先在后台跑一轮预热再进入角色。偶尔傲娇，始终认真求证 |
-| [music_list_tools](https://github.com/STliuEN/music_list_tools) | 给乐队做的本地多轨分离部署方案，纯属个人爱好。跑 Pymss 把一首歌拆成六轨，每次运行的日志和 manifest 都留着；下一步想把 UVR / Demucs / MSST 也塞进同一套调度里，可能会以它进一步微调开发 |
+| [music_list_tools](https://github.com/STliuEN/music_list_tools) | 给乐队做的本地多轨分离工作台，纯属个人爱好。跑 BS-Roformer 把一首歌拆成六轨，每次运行的日志和 manifest 都留着，还顺手接了个 stdio MCP 服务方便 Agent 直接调用 |
 
 <details>
 <summary><b>以前挖的坑（点开看看）</b></summary>
@@ -122,7 +117,7 @@
 
 有些仓库还在整理，有些代码现在看会觉得青涩，但也挺好：起码知道自己做的东西不够好，也算是一种进步。
 
-有项目想聊，或者正好有合适的实习、工作机会，欢迎来信 [sternliu@foxmail.com](mailto:sternliu@foxmail.com)。
+有好玩的项目想聊，或者单纯路过打个招呼，欢迎来信 [sternliu@foxmail.com](mailto:sternliu@foxmail.com)。
 
 <div align="center">
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=footer&color=0:2A9D8F,52:1C5D99,100:0B132B" alt="footer" />
