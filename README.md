@@ -109,16 +109,7 @@
 
 <div align="center">
 
-<p>
-  <img src="https://img.shields.io/badge/Python-0F294A?style=for-the-badge&logo=python&logoColor=7DD3FC" alt="Python" />
-  <img src="https://img.shields.io/badge/Go-0F294A?style=for-the-badge&logo=go&logoColor=7DD3FC" alt="Go" />
-  <img src="https://img.shields.io/badge/TypeScript-0F294A?style=for-the-badge&logo=typescript&logoColor=7DD3FC" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/PyTorch-0F294A?style=for-the-badge&logo=pytorch&logoColor=7DD3FC" alt="PyTorch" />
-  <img src="https://img.shields.io/badge/FastAPI-0F294A?style=for-the-badge&logo=fastapi&logoColor=7DD3FC" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/PostgreSQL-0F294A?style=for-the-badge&logo=postgresql&logoColor=7DD3FC" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/LangChain-0F294A?style=for-the-badge&logo=langchain&logoColor=7DD3FC" alt="LangChain" />
-  <img src="https://img.shields.io/badge/MCP-0F294A?style=for-the-badge&logoColor=7DD3FC" alt="MCP" />
-</p>
+<img width="100%" src="./assets/stack-bar.svg" alt="Core Tech Stack" />
 
 <br />
 
