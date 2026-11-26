@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 190" width="100%" height="100%">
+  <defs>
+    <linearGradient id="eGlass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D2647" stop-opacity="0.70" />
+      <stop offset="100%" stop-color="#091A30" stop-opacity="0.80" />
+    </linearGradient>
+    <linearGradient id="eAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.85" />
+      <stop offset="60%" stop-color="#E0F2FE" stop-opacity="0.6" />
+      <stop offset="100%" stop-color="#2563EB" stop-opacity="0.1" />
+    </linearGradient>
+    <clipPath id="eClip">
+      <rect x="0" y="0" width="560" height="190" rx="12" />
+    </clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', 'Noto Sans CJK SC', sans-serif; }
+  </style>
+  <g clip-path="url(#eClip)">
+    <rect width="560" height="190" fill="url(#eGlass)" />
+    <!-- Subtle diagonal light sheen -->
+    <polygon points="360,0 560,0 560,190 250,190" fill="#38BDF8" fill-opacity="0.045" />
+
+    <text x="26" y="34" fill="#7DD3FC" font-size="11.5" font-weight="700" letter-spacing="2.2" class="mono">SOUNDCHECK // NOW SPINNING</text>
+    <line x1="26" y1="46" x2="534" y2="46" stroke="url(#eAccent)" stroke-width="1.2" />
+
+    <text x="26" y="76" fill="#E2E8F0" font-size="13" class="mono"><tspan fill="#38BDF8">01</tspan>  AI Agents &amp; Workflow Systems</text>
+    <text x="26" y="103" fill="#E2E8F0" font-size="13" class="mono"><tspan fill="#38BDF8">02</tspan>  Search, Retrieval &amp; Evals</text>
+    <text x="26" y="130" fill="#E2E8F0" font-size="13" class="mono"><tspan fill="#38BDF8">03</tspan>  Audio Separation Tools &amp; MCP</text>
+    <text x="26" y="157" fill="#E2E8F0" font-size="13" class="mono"><tspan fill="#38BDF8">04</tspan>  Guitar Riffs &amp; Late-Night Mixing</text>
+
+    <rect x="1" y="1" width="558" height="188" rx="12" fill="none" stroke="#38BDF8" stroke-opacity="0.35" stroke-width="1.4" />
+  </g>
+</svg>
